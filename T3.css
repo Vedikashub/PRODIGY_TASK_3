@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:#daacbf;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-left: -100px;
+    margin-right: -70px;
+    background-color: beige;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #efd8e2;
+}
+
+#message {
+    margin-top: -380px;
+    margin-left: -180px;
+    font-size: 25px;
+}
+#name{
+    margin-left: -200px;
+    margin-top: -550px;
+    font-size: 40px;
+    text-decoration-line:underline ;
+    font-style: oblique;
+}
+#info{
+    margin-left: -200px;
+    margin-top: -470px;
+    font-size:15px;
+}
+#sub{
+    margin-top: 400px;
+    margin-left: -100px;
+}
